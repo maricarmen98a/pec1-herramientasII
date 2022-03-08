@@ -30,3 +30,9 @@ h2 {
         }
     }
 }
+@media(max-width: 350px) {
+    .educacion, .educacion .educacion__caja {
+      height: 320px;
+      margin-bottom: 20px;
+    }
+}

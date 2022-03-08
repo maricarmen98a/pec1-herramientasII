@@ -31,3 +31,8 @@ h2 {
         }
     }
 }
+@media(max-width: 300px) {
+    .contenido, .contenido .contenido__caja {
+      height: 430px;
+    }
+}
