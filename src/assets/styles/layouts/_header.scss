@@ -3,13 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-html {
-    height: 100%;
-}
-
 body {
-    height: 100%;
     background: linear-gradient(160deg, $bg-color 60%, $bg-color2 60%);
     color: $font-color;
     font-family: $font-family-sans-serif;
@@ -72,9 +66,6 @@ header {
     }
     
 }
-
-
-
 .hamburger-icon {
     margin: auto 0;
     display: none;
@@ -87,7 +78,6 @@ header {
         transition: 0.4s;
     }
 }
-
 .open .bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
@@ -110,8 +100,6 @@ header {
     height: 30%;
 }
   
-
-    
 @media only screen and (max-width: 600px) {
     header nav {
       display: none;
