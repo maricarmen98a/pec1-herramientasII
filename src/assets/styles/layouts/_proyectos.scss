@@ -26,26 +26,26 @@
         }
         :hover, :active {
             font-size: larger;
-            color: $bg-color2;
+            color: $bg-color;
         }
     }
     .grid1 {
-        background-image: url("../images/tienda.jpg");
+        background-image: url("../images/tienda.png");
         min-width: 140px;  
     }
     .grid2 {
-        background-image: url("../images/paisaje.jpg"); 
+        background-image: url("../images/viaje.png"); 
         min-width: 140px; 
  
     }
     .grid3 {
-        background-image: url("../images/libros.jpg");
+        background-image: url("../images/libros.png");
         min-width: 140px;
 
            
     }
     .grid4 {
-        background-image: url("../images/compañía.jpg");
+        background-image: url("../images/compañia.png");
         min-width: 140px;
 
 
