@@ -14,14 +14,18 @@ h2 {
         background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4));
         box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
         text-align: center;
-        h3 {
-            margin-bottom: 10px;
-        }
+
         img {
             margin-top: 20px;
             margin-bottom: 20px;
             max-height: 150px;
             border-radius: 10%;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        .logo-uoc {
+            display: none;
         }
         .informacion__lista {
             li {
@@ -32,7 +36,70 @@ h2 {
     }
 }
 @media(max-width: 300px) {
-    .contenido, .contenido .contenido__caja {
+    .contenido, .contenido__caja {
       height: 430px;
+    }
+}
+@media(min-width: 700px) {
+    .contenido .contenido__caja {
+        width: 600px;
+        border-radius: 3%;            
+        display: grid;
+        justify-content: left;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px 90px 170px;
+
+        img {
+            margin-left: 10%;
+            margin-top: 10%; 
+            max-height: 220px;
+        }
+        h3 {
+            margin-top: 5%;
+            text-align: left;
+            margin-left: 15%;
+            grid-column-start: 1;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .logo-uoc {
+            display: block;
+            width: 300px;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        p {
+            margin-left: 10%;
+            margin-top: 5%;
+            text-align: left;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .caja__informacion {
+            display: grid;
+            justify-content: left;
+            text-align: left;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            margin-left: 10%;
+            .informacion__lista {
+                li {
+                    margin: 15px;
+                    margin-top: 0;
+                }
+                width: 300px;
+                i {
+                    margin-right: 4%;
+                }
+            }
+            
+            
+        }
     }
 }

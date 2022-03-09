@@ -36,3 +36,8 @@ h2 {
       margin-bottom: 20px;
     }
 }
+@media(min-width: 768px) {
+    .educacion .educacion__caja {
+        height: 200px;
+    }
+}
