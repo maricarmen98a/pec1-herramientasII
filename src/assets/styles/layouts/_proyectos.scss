@@ -1,4 +1,3 @@
-
 .proyectos {
     margin-bottom: 30px;
     color: black;
@@ -8,8 +7,7 @@
     padding: 10px;  
     justify-items: center;
     padding-left: 8%;
-    padding-right: 8%;
-      
+    padding-right: 8%;   
     div {
         text-align: center;
         padding-top: 110px;
@@ -29,26 +27,21 @@
             color: $bg-color;
         }
     }
-    .grid1 {
+    .proyectos__grid1 {
         background-image: url("../images/tienda.png");
         min-width: 140px;  
     }
-    .grid2 {
+    .proyectos__grid2 {
         background-image: url("../images/viaje.png"); 
         min-width: 140px; 
- 
     }
-    .grid3 {
+    .proyectos__grid3 {
         background-image: url("../images/libros.png");
-        min-width: 140px;
-
-           
+        min-width: 140px;          
     }
-    .grid4 {
+    .proyectos__grid4 {
         background-image: url("../images/compañia.png");
         min-width: 140px;
-
-
     }
 }
 @media(max-width: 300px) {
@@ -61,16 +54,16 @@
         div {
             width: 190px;
         }
-        .grid1 {
+        .proyectos__grid1 {
             margin-left: 40%;
         }
-        .grid2 {
+        .proyectos__grid2 {
             margin-right: 40%;
         }
-        .grid3 {
+        .proyectos__grid3 {
             margin-left: 40%;
         }
-        .grid4 {
+        .proyectos__grid4 {
             margin-right: 40%;
         }
     }

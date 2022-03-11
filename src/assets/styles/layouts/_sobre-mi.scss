@@ -6,15 +6,14 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    .contenido__caja{
+    .contenido__caja {
         border-radius: 10%;
         height: 400px;
         width: 300px;
         color: black;
         background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4));
-        box-shadow:0 1px 1px rgba(0,0,0,0.12),0 2px 2px rgba(0,0,0,0.12),0 4px 4px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.12),0 16px 16px rgba(0,0,0,0.12);
+        box-shadow: 0 1px 1px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.12), 0 4px 4px rgba(0,0,0,.12), 0 8px 8px rgba(0,0,0,.12), 0 16px 16px rgba(0,0,0,.12);
         text-align: center;
-
         img {
             margin-top: 20px;
             margin-bottom: 20px;
@@ -48,7 +47,6 @@ h2 {
         justify-content: left;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 150px 90px 170px;
-
         img {
             margin-left: 10%;
             margin-top: 10%; 
@@ -97,9 +95,7 @@ h2 {
                 i {
                     margin-right: 4%;
                 }
-            }
-            
-            
+            }             
         }
     }
 }

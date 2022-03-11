@@ -7,8 +7,7 @@ body {
     background: linear-gradient(160deg, $bg-color 60%, $bg-color2 80%);
     color: $font-color;
     font-family: $font-family-sans-serif;
-}
-    
+} 
 header {
     padding: 0 20px;
     background-color: $bg-color;
@@ -21,7 +20,6 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-around;
-       
         li {
             padding: 5px;
             padding-right: 15px;
@@ -30,8 +28,7 @@ header {
                 color: $font-color;
                 text-decoration: none;
             }
-        }
-        
+        }   
     }
     .hamburger__mobile-menu {
         display: none;
@@ -47,7 +44,7 @@ header {
     }
     ul li:hover {
         transform: scale(1.1);
-        transition: 0.3s;
+        transition: .3s;
     }
     .nombre {
         margin-top: 25px;
@@ -75,23 +72,20 @@ header {
         height: 3px;
         background-color: white;
         margin: 6px 0;
-        transition: 0.4s;
+        transition: .4s;
     }
 }
-.open .bar1 {
+.open .hamburger-icon__bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
-}
-  
-.open .bar2 {
+}  
+.open .hamburger-icon__bar2 {
     opacity: 0;
 }
-  
-.open .bar3 {
+.open .hamburger-icon__bar3 {
     -webkit-transform: rotate(45deg) translate(-6px, -8px);
     transform: rotate(45deg) translate(-6px, -8px);
 }
-  
 .open .hamburger__mobile-menu {
     display: flex;
     flex-direction: column;
@@ -99,7 +93,6 @@ header {
     justify-content: flex-start;
     height: 220px;
 }
-  
 @media only screen and (max-width: 768px) {
     header nav {
       display: none;
